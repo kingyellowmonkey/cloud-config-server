@@ -9,10 +9,10 @@ eureka:
     
     
 microservice:
-  payment-service:
+  cart-service:
     endpoints:
       endpoint:
-        uri: http://PAYMENT-SERVICE/payment/doPayment
+        uri: http://CART-SERVICE/cart/newItem
   order-service:
     endpoints:
       endpoint:
