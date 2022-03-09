@@ -17,7 +17,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
-  user-service:
+  customer-service:
     endpoints:
       endpoint:
-        uri: http://USER-SERVICE/user/registerUser
+        uri: http://CUSTOMER-SERVICE/customer/registerCustomer
