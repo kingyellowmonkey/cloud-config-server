@@ -20,4 +20,4 @@ microservice:
   customer-service:
     endpoints:
       endpoint:
-        uri: http://CUSTOMER-SERVICE/customer/registerCustomer
+        uri: http://CUSTOMER-SERVICE/customers/registerCustomer
