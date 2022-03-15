@@ -7,12 +7,12 @@ eureka:
   instance:
     hostname: localhost
 
-spring:
-	kafka:
-		bootstrap-servers: localhost:9092
-		topic:
-			userCreated: USER_CREATED_TOPIC   
 
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic:
+      userCreated: USER_CREATED_TOPIC
 
 microservice:
   cart-service:
