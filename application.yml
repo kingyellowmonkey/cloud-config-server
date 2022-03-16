@@ -28,8 +28,9 @@ spring:
 #      key-serializer: org.apache.kafka.common.serialization.StringSerializer
 #      value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
-    topic: message-topic
+    newCartItem: newItemInCart
     superhero-topic: superhero-topic
+    productPulled: productGot
 
       
 # user:
