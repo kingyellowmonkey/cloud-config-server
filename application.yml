@@ -11,8 +11,46 @@ eureka:
 spring:
   kafka:
     bootstrap-servers: localhost:9092
-    topic:
-      userCreated: USER_CREATED_TOPIC
+   # topic:
+     # newCartItem: NEW_CART_ITEM_TOPIC
+     
+     
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+  #    group-id: group_id
+      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: localhost:9092
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+    topic: message-topic
+    superhero-topic: superhero-topic
+
+      
+# user:
+#   topic:
+#     logIn: user-log-in
+#     group:
+#       id: group_1
+#   topic:
+#     signUp: user-sign-up
+#     group:
+#       id: group_2
+      
+
+
+
+# cart:
+#   topic:
+#     group:
+#       id: group_2
+#     name: test-log
+   
 
 microservice:
   cart-service:
