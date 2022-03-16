@@ -8,9 +8,9 @@ eureka:
     hostname: localhost
 
 
-spring:
-  kafka:
-    bootstrap-servers: localhost:9092
+# spring:
+#   kafka:
+#     bootstrap-servers: localhost:9092
    # topic:
      # newCartItem: NEW_CART_ITEM_TOPIC
      
