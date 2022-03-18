@@ -66,3 +66,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://CUSTOMER-SERVICE/
+  product-service:
+    endpoints:
+      endpoint:
+        uri: http://PRODUCT-SERVICE/
