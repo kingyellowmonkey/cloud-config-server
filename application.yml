@@ -57,7 +57,7 @@ microservice:
   cart-service:
     endpoints:
       endpoint:
-        uri: http://CART-SERVICE/cart/newItem
+        uri: http://CART-SERVICE/cart
   order-service:
     endpoints:
       endpoint:
